@@ -9,9 +9,9 @@ import { Firestore, collectionData, collection } from '@angular/fire/firestore';
 export class AppComponent {
   title = 'course-app';
   constructor(private fs: Firestore) {
-    let testCollection = collection(fs, 'test');
-    collectionData(testCollection).subscribe(items => {
-      console.log(items);
-    });
+    // let testCollection = collection(fs, 'test');
+    // collectionData(testCollection).subscribe(items => {
+    //   console.log(items);
+    // });
   }
 }
